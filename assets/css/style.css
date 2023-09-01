@@ -116,7 +116,9 @@ main {
     font-size: 130%;
 }
 
-#cover-text >h2, h3 {color:#ffffff;}
+#cover-text >h2, h3 {
+    color:#ffffff;
+}
 
 /*footer */
 
@@ -167,6 +169,12 @@ nav{
 main {
     /*push main content down to accomodate larger screen */
     margin-top :75 px;
+}
+
+/* Hero */
+#cover-text {
+    width:300px;
+    height:50px;
 }
 }
 
