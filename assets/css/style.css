@@ -94,6 +94,7 @@ main {
     background-color: blueviolet;
     /* main element fill most of the page */
     flex: 1 0 auto;
+    margin-top:47px;
 }
 
 /*footer */
