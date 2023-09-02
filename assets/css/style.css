@@ -119,53 +119,34 @@ main {
 #cover-text >h2, h3 {
     color:#ffffff;
 }
-/* Why love running with us section */
+/* Reasons section */
 #reasons {
-    display:flex;
-    flex-direction: column;
-    position: relative;
-    height:770px;
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 20px;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    margin-bottom:20px;
+    width: 90%;
+    margin: 20px auto;
 }
 
-/*modifying style of header in  reasons */
-
-#reasons > h2 {
-    display:inline-block;
-    font-size: 280%;
+#reasons h2 {
+    margin-bottom: 20px;
     text-align: center;
-    width:80%;
-    margin-left:10% ;
-    margin-right:10%;
-    margin-bottom:20px;
+    font-size: 280%;
 }
-/*adding logos to the same line as the heading text */
-#title-logo-same {
-    display:flex;
-    flex-direction: row;
-    }
-
 
 #reasons h3 {color:#3a3a3a;}
 
-#benefits-physical , #benefits-mental {
-    margin-right: 5%;
-}
-
-
-div > p {padding-left:20px;
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
     margin-bottom: 20px;
-    text-align:left;
-    padding-right:100px;
-    
 }
 
+#benefits p {
+    padding: 0 20px;
+}
 
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 /*footer */
 
 #social-networks {
