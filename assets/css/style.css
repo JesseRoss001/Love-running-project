@@ -124,12 +124,13 @@ main {
     display:flex;
     flex-direction: column;
     position: relative;
-    height:900px;
+    height:770px;
     width:90%;
     margin-left:auto;
     margin-right:auto;
     margin-top: 20px;
     box-shadow: 2px 2px 2px #3a3a3a;
+    margin-bottom:20px;
 }
 
 /*modifying style of header in  reasons */
@@ -143,13 +144,25 @@ main {
     margin-right:10%;
     margin-bottom:20px;
 }
+/*adding logos to the same line as the heading text */
+#title-logo-same {
+    display:flex;
+    flex-direction: row;
+    }
+
 
 #reasons h3 {color:#3a3a3a;}
 
+#benefits-physical , #benefits-mental {
+    margin-right: 5%;
+}
 
-div {padding:0 20px;
-    margin-bottom:20px;
 
+div > p {padding-left:20px;
+    margin-bottom: 20px;
+    text-align:left;
+    padding-right:100px;
+    
 }
 
 
