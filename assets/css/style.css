@@ -116,7 +116,7 @@ main {
     font-size: 130%;
 }
 
-#cover-text >h2, h3 {
+#cover-text >h2,#cover-text h3 {
     color:#ffffff;
 }
 /* Reasons section */
@@ -195,7 +195,7 @@ nav{
 /*main content */
 main {
     /*push main content down to accomodate larger screen */
-    margin-top :75 px;
+    margin-top :79 px;
 }
 
 /* Hero */
