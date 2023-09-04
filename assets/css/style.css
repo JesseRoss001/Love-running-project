@@ -218,6 +218,13 @@ main {
     color:#3a3a3a
 }
 
+/* Responsiveness of Gallery Images media query :large or landscape phones (576px and up ) */
+@media screen and (min-width:576px) {
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media Query tablets and larger (768px and up)*/
 
@@ -278,11 +285,25 @@ text-align:end;
 align-self:flex-end;
 }
 
+/*gallery */
+
+#photos {
+    column-count: 3;
+    column-gap: 0;
+}
+}
+
 @media screen and (min-width:992px) {
     /* Targeting the <a> tags to make them respond when hovered */
     #menu a:hover  {
         border-bottom: 1px solid #3a3a3a3a;
     }
+
+    #photos {
+        column-count: 4;
+        column-gap:0;
+    }
+
 }
 /* Reasons section */
 @media screen and (min-width:1200px) {
