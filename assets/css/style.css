@@ -147,6 +147,18 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
+/* Reasons image */
+
+#benefits-image {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover ;
+    width:90vw;
+    height:90vw;
+    margin-bottom:20px;
+    align-self:center;
+    justify-self:center;
+    z-index:15;
+}
 /*footer */
 
 #social-networks {
