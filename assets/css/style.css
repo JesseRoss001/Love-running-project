@@ -203,6 +203,12 @@ main {
 #photos {
     line-height:0;
 }
+
+/* styling sign-up */
+#radiobuttons {
+    display:flex;
+    flex-direction: column;
+}
 /*footer */
 
 #social-networks {
