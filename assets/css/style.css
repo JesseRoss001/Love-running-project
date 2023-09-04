@@ -150,14 +150,12 @@ main {
 
 /* Reasons image */
 
-#benefits-image {
+#circle-cover-bg {
     background: url("../images/reasons-image.webp") no-repeat center center/cover ;
     width:90vw;
     height:90vw;
     margin-bottom:20px;
-    align-self:center;
-    justify-self:center;
-    z-index:15;
+   
 }
 /*footer */
 
