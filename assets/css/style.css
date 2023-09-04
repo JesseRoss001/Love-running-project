@@ -181,7 +181,7 @@ main {
 
 #times div {
     color:#fafafa;
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(60, 60, 60, 0.6);
     padding:15px;
     text-align:center;
     /*this will not wrap on screens of less than 400px wide */
@@ -205,6 +205,27 @@ main {
 }
 
 /* styling sign-up */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+#signup {
+    background:url(../images/signup-image.webp)  no-repeat;
+    background-size:cover;
+    flex-grow: 1;
+
+}
+
+#signup-form {
+    background-color: rgba(60,60,60,0.6);
+    margin-top:20px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+/*styling the form */
+
 #radiobuttons {
     display:flex;
     flex-direction: column;
