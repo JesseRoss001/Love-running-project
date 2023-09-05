@@ -319,7 +319,7 @@ nav{
 /*main content */
 main {
     /*push main content down to accomodate larger screen */
-    margin-top :79 px;
+    margin-top :79px;
 }
 
 /* Hero */
@@ -480,5 +480,5 @@ benefits-mental >div {
 benefits-physical > div {
     align-self:flex-end;
 }
-} 
+
 
