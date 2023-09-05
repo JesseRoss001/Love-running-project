@@ -213,19 +213,23 @@ main {
 #signup {
     background:url(../images/signup-image.webp)  no-repeat;
     background-size:cover;
+    background-position: 75%;
     flex-grow: 1;
 
 }
 
 #signup-form {
     background-color: rgba(60,60,60,0.6);
-    margin-top:20px;
+    padding-top:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     margin-left:10%;
     margin-right: 10%;
 }
 
 /*styling the form */
-
+#signup-form {margin-top: 30px;}
 #signup h2 {
     color:white;
 }
@@ -237,6 +241,18 @@ main {
 #radiobuttons {
     display:flex;
     flex-direction: column;
+}
+
+.text-input {
+    background-color:transparent ;
+    border:1px solid #fafafa;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:100%;
+    height:25px;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 
@@ -254,6 +270,8 @@ main {
     padding:5%;
     color:#3a3a3a
 }
+
+
 
 /* Responsiveness of Gallery Images media query :large or landscape phones (576px and up ) */
 @media screen and (min-width:576px) {
