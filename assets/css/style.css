@@ -226,6 +226,14 @@ main {
 
 /*styling the form */
 
+#signup h2 {
+    color:white;
+}
+
+#signup label {
+    color:white;
+}
+
 #radiobuttons {
     display:flex;
     flex-direction: column;
