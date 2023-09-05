@@ -370,6 +370,8 @@ align-self:flex-end;
 /*styling sign up page*/
 
 #signup {
+    background-position-x:70% ;
+    margin-top: 34px;
     left:10%;
 }
 #signup-form {
